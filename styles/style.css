@@ -1,0 +1,89 @@
+.page {
+  font-family: "Inter", sans-serif;
+  width: 100%;
+}
+
+
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.bg {
+  display: flex;
+  background-size: 300% 300%;
+  background-image: linear-gradient(-45deg, yellow 0%, yellow 25%, yellow 51%, #ff357f 100%);
+  -webkit-animation: AnimateBG 20s ease infinite;
+          animation: AnimateBG 20s ease infinite;
+}
+
+@-webkit-keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.header__title {
+  font-size: clamp(1rem, 0.1417rem + 3.662vw, 3.4375rem);
+  text-transform: uppercase;
+}
+
+.text__deviz {
+  font-size: clamp(0.5rem, 0.0158rem + 2.0657vw, 1.875rem);
+}
+
+.about__logo {
+  width: 400px;
+}
+
+@media (width <= 475px) {
+  .header {
+    padding: 10px;
+  }
+}
+
+@media (width <= 945px) {
+  .about__logo {
+    width: 250px;
+  }
+}
+
+@media (width <= 645px) {
+  .about__logo {
+    width: 200px;
+  }
+}
+
+@media (width <= 375px) {
+  
+}
+
+@media (width <= 375px) {
+  
+}
+
+@media (min-width: 376px) {
+  
+}
