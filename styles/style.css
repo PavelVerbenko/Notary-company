@@ -104,7 +104,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 0 90px;
+  padding: 30px 90px;
 }
 
 .cards {
@@ -115,14 +115,6 @@
 }
 
 /* Для заголовка секции карточки */
-.lots__heading {
-  color: black;
-  padding: 50px 0px 20px 40px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: clamp(0.9375rem, 0.6074rem + 1.4085vw, 1.875rem);
-}
-
 .card-link {
   display: flex;
   flex-grow: 1;
@@ -154,16 +146,24 @@
   background-position: center;
 }
 
-.card_type_film {
+.card_1 {
   background-image: url(../images/section2_news.jpeg);
 }
 
-.card_type_book {
+.card_2 {
   background-image: url(../images/section3_news.jpeg);
 }
 
-.card_type_picture {
+.card_3 {
   background-image: url(https://notariat.ru/media/news/e8/9a/e89a921a49cb4e3c80afdfb70e795b67.jpeg.890x594_q85_box-0%2C33%2C1429%2C992_crop_detail.jpg);
+}
+
+.card_4 {
+  background-image: url(https://notariat.ru/media/news/e6/08/e60854fa9cba4ebf92f29482cd998f7d.jpg.890x594_q85_box-1%2C0%2C1510%2C1009_crop_detail.jpg)
+}
+
+.card_5 {
+  background-image: url(https://notariat.ru/media/news/fd/ce/fdce58e3ad2a4509814d85b2ced19a94.jpg.890x594_q85_box-4%2C0%2C1282%2C858_crop_detail.jpg)
 }
 
 .card {
@@ -182,12 +182,8 @@
 }
 
 @media (width <= 1000px) {
-  .lots__heading {
-    padding: 30px 0px 10px 30px;
-  }
-
   .lots__card-list {
-    padding: 0 50px;
+    padding: 50px;
   }
 
   .cards {
@@ -205,7 +201,7 @@
   }
 
   .lots__card-list {
-    padding: 0 25px;
+    padding: 25 25px;
   }
 
   .cards {
