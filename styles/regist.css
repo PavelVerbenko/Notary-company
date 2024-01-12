@@ -1,17 +1,17 @@
-.login {
-  margin:0 auto;
-  max-width:500px;
+.regist {
+  display: flex;
+  justify-content: center;
 }
-.login-header {
-  color:#fff;
-  text-align:center;
-  font-size:300%;
+
+.login {
+  display: flex;
+  justify-content: center;
 }
 
 .login-form {
-  border:.5px solid #fff;
+  border: 1.5px solid #727272;
   background:#000000;
-  border-radius:5px;
+  border-radius: 10px;
   box-shadow:0px 0px 1px #000;
 }
 .login-form h3 {
@@ -27,31 +27,51 @@
   text-align:center;
 }
 .login input[type="text"],
-.login input[type="password"] {
+.login input[type="password"],
+.login input[type="email"] {
   max-width:400px;
   color: black;
   width: 80%;
   line-height:3em;
   margin:1em 2em;
   border-radius:5px;
-  border:2px solid #f2f2f2;
+  border: 1.5px solid #727272;
   outline:none;
   padding-left:10px;
 }
+
 .login-form input[type="button"] {
-  height:30px;
-  width:100px;
-  background:#fff;
-  border:1px solid #f2f2f2;
-  border-radius:20px;
-  color: slategrey;
-  text-transform:uppercase;
-  font-family: 'Ubuntu', sans-serif;
-  cursor:pointer;
+  height: 40px;
+  width: 110px;
+  border: 2px solid rgb(242, 242, 242);
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: black;
+  color: white;
 }
 
+.login-form input[type="button"]:hover {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.register-button {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  margin-left: 35px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+
 /*Media Querie*/
-@media only screen and (min-width : 150px) and (max-width : 530px){
+@media (width <= 530px) {
   .login-form h3 {
     text-align:center;
     margin:0;

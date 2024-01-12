@@ -4,6 +4,7 @@ body {
 
 .page {
   font-family: "Inter", sans-serif;
+  block-size: 100vh;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -142,9 +143,10 @@ body {
 .card__text {
   display: flex;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 120%; /* 24px */
   font-size: clamp(0.625rem, 0.4049rem + 0.939vw, 1.25rem);
+  text-transform: uppercase;
 }
 
 /* Карточки  добавил фон, задал ширинуи высоту каждому */
@@ -176,6 +178,18 @@ body {
   background-image: url(https://notariat.ru/media/news/fd/ce/fdce58e3ad2a4509814d85b2ced19a94.jpg.890x594_q85_box-4%2C0%2C1282%2C858_crop_detail.jpg)
 }
 
+.card_6 {
+  background-image: url(https://notariat.ru/media/news/44/23/4423fce35d59467cab660591f6361fe9.png.890x594_q85_box-2%2C0%2C888%2C595_crop_detail.png);
+}
+
+.card_7 {
+  background-image: url(https://cdnn1.img.crimea.ria.ru/img/07e8/01/0b/1134107730_0:0:3102:1746_2072x0_60_0_0_f2b301027198192e644e44320ff137db.jpg);
+}
+
+.card_8 {
+  background-image: url(https://cdn.fishki.net/upload/post/2021/07/30/3863115/ca06cababa655af508bc1afb9daed2c0.jpg);
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -183,7 +197,6 @@ body {
   flex-grow: 1;
   height: 100%;
   padding: 25px;
-  border: 2px solid black;
 }
 
 .block {
@@ -222,7 +235,6 @@ body {
     min-height: 200px;
   }
 }
-
 
 /* footer */
 .footer {
