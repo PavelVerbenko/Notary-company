@@ -80,4 +80,8 @@
   .login-button {
     margin-bottom:10px;
   }
+
+  .container {
+    background: black;
+  }
 }

@@ -4,3 +4,32 @@
   font-size: clamp(0.625rem, 0.4049rem + 0.939vw, 1.25rem);
   background-color: rgb(0, 0, 0);
 }
+
+.home {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.home__text { 
+  color: black;
+  font-weight: 600;
+  width: 100%;
+  font-size: clamp(0.625rem, 0.4049rem + 0.939vw, 1.25rem);
+}
+
+.home__img {
+  width: 100%;
+}
+
+@media (width <= 645px) {
+  .home {
+    flex-direction: column;
+  }
+
+  .home__text {
+    width: 100%;
+  }
+}
