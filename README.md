@@ -1,6 +1,6 @@
-											Нотариальаня компания
-											HTML5, CSS3, JS
-											https://pavelverbenko.github.io/Notary-company/
+Нотариальаня компания
+HTML5, CSS3, JS
+https://pavelverbenko.github.io/Notary-company/
 
 Описание
 	Проект сделан для товарища, попросил для учебы сделать сайт, который будет адаптивен под все устройства, а так же строгий, 
